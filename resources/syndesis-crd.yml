@@ -11,3 +11,7 @@ spec:
     singular: syndesis
   scope: Namespaced
   version: v1alpha1
+  components:
+    server:
+      features:
+        exposeVia3Scale: true

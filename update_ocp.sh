@@ -5,7 +5,7 @@
 
 # ================
 # Target version to update to
-TAG=master
+TAG=1.5.9
 # ================
 
 # Minimal version for OC
@@ -420,3 +420,4 @@ update_operator_imagestream "$TAG" "$minor_tag"
 cat <<EOT
 ========================================================
 Congratulation, Fuse Online has been updated to $TAG !
+EOT

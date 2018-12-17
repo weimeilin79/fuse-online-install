@@ -1,5 +1,5 @@
 # Tag for release. Update this before running release.sh
-git_fuse_online_install="master"
+git_fuse_online_install="1.5.9"
 
 # Tags used for the productised images
 tag_server="1.2-4"
@@ -13,7 +13,7 @@ tag_operator="1.2-5"
 repository="fuse7"
 
 # Test:
-registry="brew-pulp-docker01.web.prod.ext.phx2.redhat.com:8888"
+#registry="brew-pulp-docker01.web.prod.ext.phx2.redhat.com:8888"
 
 # Official:
-# registry="registry.access.redhat.com"
+registry="registry.access.redhat.com"
